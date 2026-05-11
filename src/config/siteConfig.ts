@@ -94,6 +94,30 @@ export const siteConfig = {
 
   products: [
     {
+      id: "product-template",
+      name: "제품명 (영문모델명)",
+      category: "카테고리",
+      tagline: "여기에 제품의 주요 용도나 핵심 목적을 입력하세요. (예: 대규모 농가를 위한 고성능 탈곡기)",
+      description: "제품에 대한 상세한 설명을 여기에 입력합니다. 디자인에 맞춰 자동으로 줄바꿈과 배치가 조절됩니다.",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop",
+      keyStats: [
+        { label: "주요제원1", value: "값1" },
+        { label: "주요제원2", value: "값2" },
+        { label: "주요제원3", value: "값3" }
+      ],
+      features: [
+        { title: "핵심기술 01", description: "기술에 대한 상세 설명을 입력하세요." },
+        { title: "핵심기술 02", description: "기술에 대한 상세 설명을 입력하세요." },
+        { title: "핵심기술 03", description: "기술에 대한 상세 설명을 입력하세요." }
+      ],
+      specs: [
+        { label: "상세항목 01", value: "상세값 01" },
+        { label: "상세항목 02", value: "상세값 02" },
+        { label: "상세항목 03", value: "상세값 03" },
+        { label: "상세항목 04", value: "상세값 04" }
+      ]
+    },
+    {
       id: "ucs-m21-hot",
       name: "농업용 파쇄기 (UCS-M21)",
       category: "HOT 제품",
