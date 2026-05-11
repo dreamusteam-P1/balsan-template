@@ -10,6 +10,7 @@ export interface Product {
     dimensions?: string;
     efficiency?: string;
     features?: string;
+    usage?: string;
   };
   description: string;
   features: string[];
